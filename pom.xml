@@ -20,50 +20,92 @@
 
 
 	<dependencies>
-	<!-- Servlet -->
-	<!-- Provided by Tomcat -->
-	<dependency>
-		<groupId>jakarta.servlet</groupId>
-		<artifactId>jakarta.servlet-api</artifactId>
-		<version>${jakarta.servlet.version}</version>
-		<scope>provided</scope>
-	</dependency>
-	<!-- Servlet -->
-	<!-- JSP -->
-	<dependency>
-		<groupId>jakarta.servlet.jsp</groupId>
-		<artifactId>jakarta.servlet.jsp-api</artifactId>
-		<version>${jakarta.servlet.jsp.version}</version>
-		<scope>provided</scope>
-	</dependency>
-	<!-- JSP -->
-	<!-- Expression Language -->
-	<dependency>
-		<groupId>jakarta.el</groupId>
-		<artifactId>jakarta.el-api</artifactId>
-		<version>${jakarta.el.version}</version>
-		<scope>provided</scope>
-	</dependency>
-	<!-- Expression Language -->
 	
-	<!-- Jakarta Eamil -->
-	<!-- Specification -->
-	<dependency>
-		<groupId>jakarta.mail</groupId>
-		<artifactId>jakarta.mail-api</artifactId>
-		<version>2.1.3</version>
-	</dependency>
-	<!-- Implementation -->
-	<dependency>
-    	<groupId>org.eclipse.angus</groupId>
-    	<artifactId>angus-mail</artifactId>
-    	<version>2.0.2</version>
-	</dependency>
+		<!-- Servlet -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>${jakarta.servlet.version}</version>
+			<scope>provided</scope>
+		</dependency>		
+		<!-- Implementation Provided by Tomcat -->
+		<!-- Servlet -->
+		
+		
+		<!-- JSP -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.servlet.jsp</groupId>
+			<artifactId>jakarta.servlet.jsp-api</artifactId>
+			<version>${jakarta.servlet.jsp.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- Implementation Provided by Tomcat -->
+		<!-- JSP -->
+	
+	
+		<!-- Expression Language -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.el</groupId>
+			<artifactId>jakarta.el-api</artifactId>
+			<version>${jakarta.el.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- Implementation Provided by Tomcat -->
+		<!-- Expression Language -->
+		
+		
+		<!-- Jakarta Annonations -->
+		<!-- Specification -->	
+		<dependency>
+    		<groupId>jakarta.annotation</groupId>
+    		<artifactId>jakarta.annotation-api</artifactId>
+		    <version>2.1.1</version>
+		    <scope>provided</scope>
+		</dependency>
+		<!-- Implementation Provided by Tomcat -->
+		<!-- Jakarta Annonations -->
+		
+		
+		<!-- Jakarta Standard Tag Library -->
+		<!-- Specification -->
+		<dependency>
+    		<groupId>jakarta.servlet.jsp.jstl</groupId>
+    		<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+    		<version>3.0.0</version>
+    		<scope>compile</scope>
+		</dependency>
+		<!-- Implementation -->
+		<dependency>
+    		<groupId>org.glassfish.web</groupId>
+    		<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+    		<version>3.0.1</version>
+		</dependency>
+		<!-- Jakarta Standard Tag Library -->
+
+
+		<!-- Jakarta Email -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.mail</groupId>
+			<artifactId>jakarta.mail-api</artifactId>
+			<version>2.1.3</version>
+		</dependency>
+		<!-- Implementation -->
+		<dependency>
+    		<groupId>org.eclipse.angus</groupId>
+	    	<artifactId>angus-mail</artifactId>
+    		<version>2.0.2</version>
+		</dependency>
+		<!-- Jakarta Email -->
+	
 	
 	</dependencies>
 
 	<build>
-		<finalName>chapter1</finalName>
+		<finalName>book</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
