@@ -2,7 +2,7 @@
       xmlns:c="http://java.sun.com/jsp/jstl/core"
       version="2.0">
 <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
-<jsp:useBean id="authorBean" scope="session" class="org.jakartaeerecipe.chapter02.recipe02_12.AuthorBean"/>
+<jsp:useBean id="authorBean" scope="session" class="com.onndoo.book.jakarta10.recipes.chapter2.bean.AuthorBean"/>
 <head>
     <title>Recipe 2-12: Looping Through Database Records Within a Page </title>
 </head>

@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpSession;
 import jakarta.servlet.http.HttpSessionAttributeListener;
 import jakarta.servlet.http.HttpSessionBindingEvent;
 
-@WebListener
+//@WebListener
 public class AttributeListener implements ServletContextListener, HttpSessionAttributeListener {
 
 	private ServletContext context = null;

@@ -100,8 +100,119 @@
     		<version>2.0.2</version>
 		</dependency>
 		<!-- Jakarta Email -->
-	
-	
+		
+		
+		<!-- CDI -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.enterprise</groupId>
+			<artifactId>jakarta.enterprise.cdi-api</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+		<!-- Implementation -->
+		<dependency>
+			<groupId>org.jboss.weld.servlet</groupId>
+			<artifactId>weld-servlet-shaded</artifactId>
+			<version>5.1.0.Final</version>
+		</dependency>
+		<!-- CDI -->
+		
+		
+		<!-- Persistence -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.persistence</groupId>
+			<artifactId>jakarta.persistence-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<!-- Implementation -->
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.5.2.Final</version>
+		</dependency>
+		<!-- Persistence -->
+		
+		
+		<!-- Jakarta Faces -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.faces</groupId>
+			<artifactId>jakarta.faces-api</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+		<!-- Implementation -->
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>jakarta.faces</artifactId>
+			<version>4.0.9</version>
+		</dependency>
+		<!-- Jakarta Faces -->
+		
+		<!-- Jakarta JSON Processing -->
+		<!-- Specification -->
+		<dependency>
+    		<groupId>jakarta.json</groupId>
+    		<artifactId>jakarta.json-api</artifactId>
+    		<version>2.1.3</version>
+		</dependency>
+		<!-- Implementation -->
+		<dependency>
+    		<groupId>org.eclipse.parsson</groupId>
+    		<artifactId>parsson</artifactId>
+    		<version>1.1.3</version>
+		</dependency>
+		<!-- Jakarta JSON Processing -->
+		
+		
+		<!-- Jakarta MVC -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.mvc</groupId>
+			<artifactId>jakarta.mvc-api</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<!-- Implementation -->
+		<dependency>
+    		<groupId>org.eclipse.krazo</groupId>
+    		<artifactId>krazo-core</artifactId>
+    		<version>3.0.1</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.eclipse.krazo</groupId>
+    		<artifactId>krazo-jersey</artifactId>
+    		<version>3.0.1</version>
+		</dependency>
+		<!-- Jakarta MVC -->
+
+
+		
+		<!-- Validation -->
+		<!-- Specification -->
+		<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+			<version>3.0.2</version>
+		</dependency>
+		<!-- Implementation -->
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>7.0.5.Final</version>
+		</dependency>
+		<!-- Validation -->
+		
+		
+		<!-- Other -->
+		<!-- MySQL -->		
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>8.4.0</version>
+		</dependency>
+		<!-- Other -->
+		
+		
 	</dependencies>
 
 	<build>

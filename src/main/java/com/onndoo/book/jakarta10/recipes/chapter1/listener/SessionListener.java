@@ -5,7 +5,7 @@ import jakarta.servlet.http.HttpSession;
 import jakarta.servlet.http.HttpSessionEvent;
 import jakarta.servlet.http.HttpSessionListener;
 
-@WebListener
+//@WebListener
 public class SessionListener implements HttpSessionListener {
 
 	private int numberOfSessions;

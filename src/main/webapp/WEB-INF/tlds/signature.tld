@@ -5,7 +5,7 @@
     <uri>custom</uri>
     <tag>
         <name>signature</name>
-        <tag-class>org.jakartaeerecipe.chapter02.recipe02_09.Signature</tag-class>
+        <tag-class>com.onndoo.book.jakarta10.recipes.chapter2.tag.Signature</tag-class>
         <body-content>empty</body-content>
         <attribute>
             <name>authorName</name>
